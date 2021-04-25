@@ -10,9 +10,9 @@ def class_open():
     driver.get("https://cuchd.blackboard.com/")
 
     username = driver.find_element_by_id("user_id")
-    username.send_keys("20bcs6717")
+    username.send_keys("enter your user id here")
     password = driver.find_element_by_id("password")
-    password.send_keys("Karan@7017")
+    password.send_keys("enter your password here")
     submit = driver.find_element_by_id("entry-login")
     submit.send_keys(Keys.RETURN)
 
